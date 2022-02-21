@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Livres de Développement Personnel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="container mt-1">
+        <div id="content">
+            <h1 class="text-center">Mes livres de Développement Personnel</h1>
+            <!-- FORMULAIRE D'AJOUT -->
+            <button class="btn btn-outline-primary" id="form-add">Ajouter un livre</button>
+            <!-- javascript:void(0) empêche les rechargements de la page et maintient la norme HTML -->
+            <form action="javascript:void(0);" id="form" class="mt-4">
+                <!-- TITRE -->
+                <div class="form-group">
+                    <label for="title">Titre</label>
+                    <input type="text" name="title" id="title" class="form-control" />
+                </div>
+                <!-- ANNÉE -->
+                <div class="form-group">
+                    <label for="year">Année</label>
+                    <input type="number" name="year" id="year" class="form-control" />
+                </div>
+                <!-- AUTEUR -->
+                <div class="form-group">
+                    <label for="author">Auteur</label>
+                    <input type="text" name="author" id="author" class="form-control" />
+                </div>
+                <!-- ÉDITION -->
+                <div class="form-group">
+                    <label for="edition">Édition</label>
+                    <input type="text" name="edition" id="edition" class="form-control" />
+                </div>
+                <!-- THÈME -->
+                <div class="form-group">
+                    <label for="theme">Thème</label>
+                    <input type="text" name="theme" id="theme" class="form-control" />
+                </div>
+                <input type="hidden" id="hidden" />
+                <button class="btn btn-xs btn-primary" id="form-save">Enregistrer</button>
+                <button class="btn btn-xs" id="form-cancel">Annuler</button>
+            </form>
+            <input type="search" class="form-control" placeholder="Rechercher par titre" />
+            <table class="table table-bordered" id="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Titre</th>
+                        <th scope="col">Année</th>
+                        <th scope="col">Auteur</th>
+                        <th scope="col">Edition</th>
+                        <th scope="col">Thème</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+<script type="module" src="app.js"></script>
+
+</html>
