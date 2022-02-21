@@ -4,7 +4,7 @@ export const personalDevelopmentBooks = [
         year: 2009,
         author: "Robert Greene",
         edition: "Alisio",
-        theme: "#psychologie, #stratégie"
+        theme: "#psychologie #stratégie"
     },
     {
         title: "Les outils des géants",
@@ -40,7 +40,7 @@ export const personalDevelopmentBooks = [
         year: 2020,
         author: "Sun Tzu",
         edition: "Indépendant",
-        theme: "#croissancePersonnelle, #stratégie"
+        theme: "#croissancePersonnelle #stratégie"
     },
     {
         title: "L'homme le plus riche de Babylone",
