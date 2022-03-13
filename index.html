@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <title>Livres de Développement Personnel</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Ajout rapide de style css via Bootstrap avec l'utilisation de jsDelivr, un CDN open source -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <section class="container mt-1">
         <div id="content">
-            <h1 class="text-center">Mes livres de Développement Personnel</h1>
+            <h1 class="text-center" style="margin: 5rem">Mes livres de Développement Personnel</h1>
             <!-- FORMULAIRE D'AJOUT -->
             <button class="btn btn-outline-primary" id="form-add">Ajouter un livre</button>
             <!-- javascript:void(0) empêche les rechargements de la page et maintient la norme HTML -->
             <form action="javascript:void(0);" id="form" class="mt-4">
                 <!-- TITRE -->
                 <div class="form-group">
+                    <!-- La balise <label> définit un label (ou étiquette) pour un élément input -->
                     <label for="title">Titre</label>
                     <input type="text" name="title" id="title" class="form-control" />
                 </div>
@@ -45,9 +47,12 @@
                 <button class="btn btn-xs" id="form-cancel">Annuler</button>
             </form>
             <input type="search" class="form-control" placeholder="Rechercher par titre" />
+            <!-- La balise <table> permet de créer un tableau dont le rôle principal est de ranger des données en ligne et en colonne -->
             <table class="table table-bordered" id="table">
+                <!-- La balise <thead> permet de regrouper le contenu d’en-tête dans un tableau HTML -->
                 <thead class="thead-light">
                     <tr>
+                        <!-- L'attribut scope indique si une cellule d'en-tête est un en-tête pour une colonne, une ligne ou un groupe de colonnes ou de lignes -->
                         <th scope="col">Titre</th>
                         <th scope="col">Année</th>
                         <th scope="col">Auteur</th>
@@ -57,11 +62,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- La balise tbody permet de regrouper le contenu du corps dans un tableau HTML -->
                 </tbody>
             </table>
         </div>
     </section>
 </body>
-<script type="module" src="app.js"></script>
+<script type="module" src="./app.js"></script>
 
 </html>
