@@ -33,7 +33,6 @@ export const personalDevelopmentBooks = [
         author: "Dale Carnegie",
         edition: "Québec Livres",
         theme: "#relationsPersonnelles"
-
     },
     {
         title: "L'art de la guerre",
@@ -55,6 +54,13 @@ export const personalDevelopmentBooks = [
         author: "Howard Bloom",
         edition: "Jardin des Livres",
         theme: "#scientifique #genreHumain"
+    },
+    {
+        title: "Miracle Morning",
+        year: 2016,
+        author: "Hal Elrod",
+        edition: "Pocket",
+        theme: "#croissancePersonnelle"
     },
 ];
 
