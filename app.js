@@ -83,7 +83,7 @@ function search() {
 /* Par défaut, le formulaire n'est pas visible */
 const elForm = document.getElementById("form");
 elForm.style.display = "none"; /* Le formulaire ne s'affiche pas grâce à la propriété CSS display: none */
-const elContent = document.getElementById("table"); /* Ciblage de la div contennat tout le contenu de l'application */
+const elContent = document.getElementById("table"); /* Ciblage de la div contenant tout le contenu de l'application */
 //#endregion
 
 

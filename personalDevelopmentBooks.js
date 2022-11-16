@@ -56,6 +56,13 @@ export const personalDevelopmentBooks = [
         edition: "Jardin des Livres",
         theme: "#scientifique #genreHumain"
     },
+    {
+        title: "Tout le monde n'a pas eu la chance de rater ses études",
+        year: 2019,
+        author: "Oliver Roland",
+        edition: "Le Livre de poche",
+        theme: "#entrepreneuriat #education"
+    },
 ];
 
   // àéèô
