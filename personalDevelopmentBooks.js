@@ -33,7 +33,6 @@ export const personalDevelopmentBooks = [
         author: "Dale Carnegie",
         edition: "Québec Livres",
         theme: "#relationsPersonnelles"
-
     },
     {
         title: "L'art de la guerre",
@@ -57,11 +56,19 @@ export const personalDevelopmentBooks = [
         theme: "#scientifique #genreHumain"
     },
     {
+<<<<<<< HEAD
         title: "Tout le monde n'a pas eu la chance de rater ses études",
         year: 2019,
         author: "Oliver Roland",
         edition: "Le Livre de poche",
         theme: "#entrepreneuriat #education"
+=======
+        title: "Miracle Morning",
+        year: 2016,
+        author: "Hal Elrod",
+        edition: "Pocket",
+        theme: "#croissancePersonnelle"
+>>>>>>> 0f599cca5e15a0a2fd6331e03ff27897be309b55
     },
 ];
 
